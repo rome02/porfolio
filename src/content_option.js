@@ -13,7 +13,7 @@ const introdata = {
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     //your_img_url: "/videos/resize-home-video.mp4",
-    your_img_url: "/images/image_1.jpg",
+    your_img_url: "./images/image_1.jpg",
 };
 
 const dataabout = {
@@ -84,36 +84,36 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "/images/goprovision_desktop.jpg",
-        imgMobile: "/images/goprovision_mobile.jpg",
+        img: "./images/goprovision_desktop.jpg",
+        imgMobile: "./images/goprovision_mobile.jpg",
         title: "go-provision",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "/images/olack_desktop.jpg",
-        imgMobile: "/images/olack_mobile.jpg",
+        img: "./images/olack_desktop.jpg",
+        imgMobile: "./images/olack_mobile.jpg",
         title: "olackplasticsurgery",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "/images/Lasik_desktop.jpg",
-        imgMobile: "/images/Lasik_mobile.jpg",
+        img: "./images/Lasik_desktop.jpg",
+        imgMobile: "./images/Lasik_mobile.jpg",
         title: "lasiksanantonio",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "/images/clinicalAI_desktop.jpg",
-        imgMobile: "/images/clinicalAI_mobile.jpg",
+        img: "./images/clinicalAI_desktop.jpg",
+        imgMobile: "./images/clinicalAI_mobile.jpg",
         title: "clinicalnotes",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "/images/misutagyoza_desktop.jpg",
-        imgMobile: "/images/misutagyoza_mobile.jpg",
+        img: "./images/misutagyoza_desktop.jpg",
+        imgMobile: "./images/misutagyoza_mobile.jpg",
         title: "misutagyoza",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
