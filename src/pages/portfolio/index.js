@@ -123,7 +123,7 @@ export const Portfolio = () => {
                   <div className="block-wrapper flex justify-center items-center">
                     <div className="block-gadget max-w-[1024px] w-[90%]">
                       <div className="wrapper-mac">
-                        <img src="/images/blank-macbook.png" alt="Macbook" />
+                        <img src="./images/blank-macbook.png" alt="Macbook" />
                         <div className="photo absolute">
                           <div className="scrollable_Img">
                             <img className="absolute w-full left-0 object-cover" src={data.img} alt={data.title} />
@@ -131,7 +131,7 @@ export const Portfolio = () => {
                         </div>
                       </div>
                       <div className="wrapper-mobile">
-                        <img src="/images/blank-mobile-new.png" alt="Mobile" />
+                        <img src="./images/blank-mobile-new.png" alt="Mobile" />
                         <div className="photo absolute">
                           <div className="scrollable_Img">
                             <img className="absolute w-full left-0 object-cover" src={data.imgMobile} alt={data.title} />
