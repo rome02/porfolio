@@ -29,7 +29,11 @@ export const Home = () => {
               className="absolute w-full h-full top-0 left-0 object-cover object-top"
             />
             */}
-            <img src={introdata.your_img_url} className="absolute w-full h-full top-0 left-0 object-cover object-top"></img>
+            <img
+  key={introdata.your_img_url} // This forces React to treat this as a new element when the URL changes
+  src={introdata.your_img_url}
+  className="absolute w-full h-full top-0 left-0 object-cover object-top"
+/>
           </div>
 
           {/* Intro text */}

@@ -11,32 +11,38 @@ const introdata = {
         second: "Email Developer",
         third: "Wordpress Devloper",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I'm a front-end developer based in Laguna, Philippines, with experience building various types of front-ends using CMS platforms like WordPress and Canvas by Roya.com. I'm passionate about creating cutting-edge, pixel-perfect, and visually stunning interfaces for websites and email templates.",
     //your_img_url: "/videos/resize-home-video.mp4",
     your_img_url: "./images/image_1.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "About Myself",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+const workExperience = [{
+            title: "Front End Developer",
+            companyName: "Roya.com Media Design Philippines | www.roya.com",
+            description: "Developed, Maintained, and tested the stability of 500+ sites using the Canvas® CMS platform.",
+            start: "January 2021",
+            end: "Currently",
+        },
+        {
+            title: "Junior Web Developer",
+            companyName: "NVX studio | www.nvxstudio.com",
+            description: "Maintained and tested the stability of over 75 WordPress sites and 50 Shopify sites, collaborating with a team of seven front-end and back-end developers to enhance software capabilities for corporate clients.",
+            start: "June 2017",
+            end: "January 2021",
+        },
+        {
+            title: "Technical Support Intern (OJT 300hrs)",
+            companyName: "TCL ONLINE SERVICES INC.",
+            start: "April 2016",
+            end: "June 2016",
+        },
 ];
+
 
 const skills = [{
         name: "HTML",
@@ -47,40 +53,23 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Tailwind",
-        value: 50,
-    },
-    {
-        name: "Javascript",
-        value: 60,
-    },
-    {
         name: "Jquery",
         value: 85,
     },
     {
-        name: "WordPress",
+        name: "Google AMP Page",
         value: 70,
     },
     {
-        name: "Shopify",
-        value: 50,
+        name: "WordPress",
+        value: 65,
     },
-    
-];
+    {
+        name: "Tailwind",
+        value: 60,
+    },
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    
 ];
 
 const dataportfolio = [{
@@ -138,11 +127,10 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
     logotext,
+    workExperience,
 };
