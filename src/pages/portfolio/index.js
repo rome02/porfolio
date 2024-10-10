@@ -104,6 +104,7 @@ export const Portfolio = () => {
                 <button
                   data-fancybox
                   data-src={`#${data.title}`}
+                               data-caption={`#${data.title}`}
                   className="absolute bottom-4 right-4 group-hover:scale-100 scale-0 transition-transform duration-300 ease-in-out bg-transparent border-0 p-0 z-10"
                 >
                   <svg
