@@ -80,14 +80,12 @@
 }
 
 .fancybox__container .build-wrapper {
-    padding: 6vw 30px;
+    padding: 5vw 30px;
     background: transparent;
 }
 
 .fancybox__container .build-wrapper {
     padding: 30px;
-    padding-top: 8vw;
-    padding-bottom: 8vw;
     border-radius: 20px;
 }
 
