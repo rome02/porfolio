@@ -253,6 +253,14 @@ section {
         left: 50%;
         transform: translate(-50%, 50%);
     }
+    .stick_follow_icon ul {
+        display: flex;
+        margin-bottom: 0;
+    }
+    
+    .stick_follow_icon ul li {
+        margin-bottom: 0;
+    }
 }
 @media (max-width: 620px) {
     .intro_sec .text p {
@@ -267,12 +275,5 @@ section {
         font-size: 20px;
     }
     
-    .stick_follow_icon ul {
-        display: flex;
-        margin-bottom: 0;
-    }
     
-    .stick_follow_icon ul li {
-        margin-bottom: 0;
-    }
 }

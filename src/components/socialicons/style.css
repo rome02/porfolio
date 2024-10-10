@@ -76,11 +76,12 @@
         margin-right: 65px;
     }
     .stick_follow_icon ul {
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        display: flex;
     }
     .stick_follow_icon ul li {
         display: inline;
-        margin-bottom: 29px;
+        margin-bottom: 0;
         margin-right: 10px;
     }
 }

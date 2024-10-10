@@ -90,8 +90,8 @@ export const Portfolio = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4"> Portfolio </h1>
-            <hr className="t_border my-4 ml-0 text-left" />
+            <h1 className="display-4 mb-2 md:!mb-4"> Portfolio </h1>
+            <hr className="t_border my-2 md:!my-4 ml-0 text-left" />
           </Col>
         </Row>
         <div className="pb-[60px]">
@@ -104,7 +104,9 @@ export const Portfolio = () => {
                 <button
                   data-fancybox
                   data-src={`#${data.title}`}
-                               data-caption={`#${data.title}`}
+                  data-caption={`<span class='sm:mb-0 mb-4 flex sm:flex-row flex-col font-light sm:gap-[10px] gap-[5px] text-center'><div class='font-bold uppercase'>Owner: </div>${data.title}</span>
+                  <span class='sm:mb-0 mb-6 flex sm:flex-row flex-col font-light sm:gap-[10px] gap-[5px] text-center'><div class='font-bold uppercase'>Design by: </div>Joanne Panaligan, Creative Director of Roya.com</span>`}
+
                   className="absolute bottom-4 right-4 group-hover:scale-100 scale-0 transition-transform duration-300 ease-in-out bg-transparent border-0 p-0 z-10"
                 >
                   <svg
