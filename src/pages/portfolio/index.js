@@ -105,7 +105,7 @@ export const Portfolio = () => {
                   data-fancybox
                   data-src={`#${data.title}`}
                   data-caption={`<span class='sm:mb-0 mb-2 flex sm:flex-row flex-col font-light sm:gap-[10px] gap-[5px] text-center'><div class='font-bold uppercase'>Owner: </div>${data.title}</span>
-                  <span class='sm:mb-0 mb-2 flex sm:flex-row flex-col font-light sm:gap-[10px] gap-[5px] text-center'><div class='font-bold uppercase'>Owner: </div>Roya.com</span>
+                  <span class='sm:mb-0 mb-2 flex sm:flex-row flex-col font-light sm:gap-[10px] gap-[5px] text-center'><div class='font-bold uppercase'>Owner: </div>${data.owner}</span>
                   <span class='sm:mb-0 mb-6 flex sm:flex-row flex-col font-light sm:gap-[10px] gap-[5px] text-center'><div class='font-bold uppercase'>Design by: </div>Joanne Panaligan, Creative Director</span>`}
 
                   className="absolute bottom-4 right-4 group-hover:scale-100 scale-0 transition-transform duration-300 ease-in-out bg-transparent border-0 p-0 z-10"
