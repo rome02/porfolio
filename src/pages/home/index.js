@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
@@ -6,8 +6,10 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
 
-
 export const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on re-visit (optional)
+  }, []); // This runs only when the component is mounted (like on page refresh or visit)
   return (
     <HelmetProvider>
       <section id="home" className="home">
