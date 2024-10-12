@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
@@ -7,9 +7,12 @@ import { Link } from "react-router-dom";
 
 
 export const Home = () => {
+  const [imgKey, setImgKey] = useState(Date.now());
+
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to top on re-visit (optional)
-  }, []); // This runs only when the component is mounted (like on page refresh or visit)
+    setImgKey(Date.now());
+  }, []); 
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -31,12 +34,15 @@ export const Home = () => {
               playsInline
               className="absolute w-full h-full top-0 left-0 object-cover object-top"
             />
-            */}
-            <img
-  key={introdata.your_img_url} // This forces React to treat this as a new element when the URL changes
+                        <img
+
   src={introdata.your_img_url}
   className="absolute w-full h-full top-0 left-0 object-cover object-top"
 />
+
+            */}
+            <img src={`${introdata.your_img_url}?v=${Date.now()}`}  key={introdata.your_img_url}  className="absolute w-full h-full top-0 left-0 object-cover object-top"></img>
+
           </div>
 
           {/* Intro text */}
