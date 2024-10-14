@@ -1,24 +1,23 @@
 const logotext = "ROME";
 const meta = {
     title: "Jerome Lopez Gapusan",
-    description: "I’m Jerome Lopez Gapusan data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Jerome Lopez Gapusan front-end developer based in Laguna, Philippines.",
 };
 
 const introdata = {
     title: "I’m Jerome Lopez Gapusan",
     animated: {
         first: "Front-end Developer",
-        second: "Email Developer",
-        third: "Wordpress Devloper",
+        second: "Wordpress Developer",
+        third: "HTML Developer",
     },
-    description: "I'm a front-end developer based in Laguna, Philippines, with experience building various types of front-ends using CMS platforms like WordPress and Canvas by Roya.com. I'm passionate about creating cutting-edge, pixel-perfect, and visually stunning interfaces for websites and email templates.",
-    //your_img_url: "/videos/resize-home-video.mp4",
+    description: "I'm a front-end developer based in Laguna, Philippines, with experience building various types of front-ends using CMS platforms like WordPress and Canvas by Roya.com. I'm passionate about creating cutting-edge, pixel-perfect, and visually stunning interfaces for websites.",
     your_img_url: "./images/image_1.jpg",
 };
 
 const dataabout = {
     title: "About Myself",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I’m a front-end developer based in Laguna, Philippines, with experience building various types of front-ends using CMS platforms like WordPress and Canvas by Roya.com. I’m passionate about creating cutting-edge, pixel-perfect, and visually stunning interfaces for websites. I’ve also started collecting sneakers, particularly from the OG's Era or Comfy Era, and I love coffee—dark, with no sugar or creamer.",
 };
 
 const workExperience = [{
@@ -73,36 +72,13 @@ const skills = [{
 ];
 
 const dataportfolio = [{
-        img: "./images/goprovision_desktop.jpg",
-        imgMobile: "./images/goprovision_mobile.jpg",
-        title: "go-provision",
+    
+        img: "./images/roya-desktop.jpg",
+        imgMobile: "./images/roya-mobile.png",
+        title: "Roya.com",
         owner: "Roya.com",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "./images/olack_desktop.jpg",
-        imgMobile: "./images/olack_mobile.jpg",
-        title: "olackplasticsurgery",
-        owner: "Roya.com",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "./images/Lasik_desktop.jpg",
-        imgMobile: "./images/Lasik_mobile.jpg",
-        title: "lasiksanantonio",
-        owner: "Roya.com",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "./images/clinicalAI_desktop.jpg",
-        imgMobile: "./images/clinicalAI_mobile.jpg",
-        title: "clinicalnotes",
-        owner: "Roya.com",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://www.roya.com/",
     },
     {
         img: "./images/misutagyoza_desktop.jpg",
@@ -111,6 +87,78 @@ const dataportfolio = [{
         owner: "IIMK Corporation",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
+    },
+    {
+        img: "./images/goprovision_desktop.jpg",
+        imgMobile: "./images/goprovision_mobile.jpg",
+        title: "go-provision",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://go-provision.com/",
+    },
+    {
+        img: "./images/olack_desktop.jpg",
+        imgMobile: "./images/olack_mobile.jpg",
+        title: "olackplasticsurgery",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://www.olackplasticsurgery.com/",
+    },
+    {
+        img: "./images/Lasik_desktop.jpg",
+        imgMobile: "./images/Lasik_mobile.jpg",
+        title: "lasiksanantonio",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://lasiksanantonio.org/",
+    },
+    {
+        img: "./images/clinicalAI_desktop.jpg",
+        imgMobile: "./images/clinicalAI_mobile.jpg",
+        title: "clinicalnotes",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "http://clinicalnotes.ai/",
+    },
+    {
+        img: "./images/spec-desktop.jpg",
+        imgMobile: "./images/spec-mobile.png",
+        title: "Specs For Less",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://www.specsforless.com/",
+    },
+    {
+        img: "./images/tso-desktop.jpg",
+        imgMobile: "./images/tso-mobile.png",
+        title: "Texas State Optical",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "./images/rad-desktop.jpg",
+        imgMobile: "./images/rad-mobile.png",
+        title: "radeyesmobile",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://www.radeyesmobile.com/",
+    },
+    {
+        img: "./images/quick-vision-desktop.jpg",
+        imgMobile: "./images/quick-vision-mobile.png",
+        title: "radeyesmobile",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://www.quick-vision.com/",
+    },
+    {
+        img: "./images/opticore-desktop.jpg",
+        imgMobile: "./images/opticore-mobile.png",
+        title: "Quick Vision",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://www.opticoreyegroup.com/",
     },
 ];
 

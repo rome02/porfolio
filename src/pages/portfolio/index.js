@@ -18,8 +18,8 @@ export const Portfolio = () => {
       const scrollStep = (currentTime) => {
         if (!startTime) startTime = currentTime;
         const timeElapsed = currentTime - startTime;
-        const progress = Math.min(timeElapsed / duration, 1); // Cap progress at 1
-        element.scrollTop = startPosition + distance * easeInOutCubic(progress); // Use easing
+        const progress = Math.min(timeElapsed / duration, 1); 
+        element.scrollTop = startPosition + distance * easeInOutCubic(progress); 
 
         if (timeElapsed < duration) {
           requestAnimationFrame(scrollStep);
@@ -28,8 +28,6 @@ export const Portfolio = () => {
 
       requestAnimationFrame(scrollStep);
     };
-
-    // Easing function for smooth scroll
     const easeInOutCubic = (t) => {
       return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
     };

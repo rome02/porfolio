@@ -25,23 +25,11 @@ export const Home = () => {
 
         <div className="intro_sec d-block d-lg-flex align-items-center">
           <div className="h_bg-image order-1 order-lg-2 h-100 relative">
-            {/*
-            <video
-              src={introdata.your_img_url}
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="absolute w-full h-full top-0 left-0 object-cover object-top"
-            />
-                        <img
-
+            <img
+  key={introdata.your_img_url}
   src={introdata.your_img_url}
   className="absolute w-full h-full top-0 left-0 object-cover object-top"
 />
-
-            */}
-            <img src={`${introdata.your_img_url}?v=${Date.now()}`}  key={introdata.your_img_url}  className="absolute w-full h-full top-0 left-0 object-cover object-top"></img>
 
           </div>
 
