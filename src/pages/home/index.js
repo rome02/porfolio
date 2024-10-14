@@ -5,13 +5,13 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
-
 export const Home = () => {
   const [imgKey, setImgKey] = useState(Date.now());
 
   useEffect(() => {
+    // Update the imgKey when the URL changes
     setImgKey(Date.now());
-  }, []); 
+  }, [introdata.your_img_url]); // Dependency array includes introdata.your_img_url
 
   return (
     <HelmetProvider>
@@ -26,11 +26,11 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center">
           <div className="h_bg-image order-1 order-lg-2 h-100 relative">
             <img
-  key={introdata.your_img_url}
-  src={introdata.your_img_url}
-  className="absolute w-full h-full top-0 left-0 object-cover object-top"
-/>
-
+              key={imgKey} // Use imgKey here to force reload
+              src={introdata.your_img_url}
+              className="absolute w-full h-full top-0 left-0 object-cover object-top"
+              alt="Intro"
+            />
           </div>
 
           {/* Intro text */}
