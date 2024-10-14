@@ -9,9 +9,12 @@ export const Home = () => {
   const [imgKey, setImgKey] = useState(Date.now());
 
   useEffect(() => {
-    // Update the imgKey when the URL changes
-    setImgKey(Date.now());
-  }, [introdata.your_img_url]); // Dependency array includes introdata.your_img_url
+    const timeout = setTimeout(() => {
+      setImgKey(Date.now());
+    }, 100); // 100 ms delay
+  
+    return () => clearTimeout(timeout); // Clean up the timeout
+  }, [introdata.your_img_url]);
 
   return (
     <HelmetProvider>
@@ -30,6 +33,7 @@ export const Home = () => {
               src={introdata.your_img_url}
               className="absolute w-full h-full top-0 left-0 object-cover object-top"
               alt="Intro"
+              loading="eager"
             />
           </div>
 
