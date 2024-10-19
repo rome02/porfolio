@@ -8,13 +8,13 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   const [imgKey, setImgKey] = useState(Date.now());
 
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setImgKey(Date.now());
-    }, 100); // 100 ms delay
-  
-    return () => clearTimeout(timeout); // Clean up the timeout
-  }, [introdata.your_img_url]);
+useEffect(() => {
+  const timeout = setTimeout(() => {
+    setImgKey(Date.now());
+  }, 100); // 100 ms delay
+
+  return () => clearTimeout(timeout); // Clean up the timeout
+}, [introdata.your_img_url]);
 
   return (
     <HelmetProvider>

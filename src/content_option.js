@@ -71,8 +71,17 @@ const skills = [{
     
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
     
+        img: "./images/nyc-desktop.png",
+        imgMobile: "./images/nyc-mobile.png",
+        title: "Roya.com",
+        owner: "Roya.com",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://www.roya.com/",
+    },
+    {
         img: "./images/roya-desktop.jpg",
         imgMobile: "./images/roya-mobile.png",
         title: "Roya.com",
